@@ -60,6 +60,7 @@ if __name__ == "__main__":
 """
 
 
+
 result=os.system("cat /home/jeason/projects/pythonStudy/MainForFirstCommit.py")
 print(result)
 """

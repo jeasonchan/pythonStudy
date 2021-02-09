@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
+import os
 import sys
 import argparse
+import subprocess
+
 
 print("input argv is {}".format(sys.argv))
 
@@ -29,4 +32,58 @@ if(add_list):
 remove_list=parseredArgs.remove
 if(remove_list):
     print("remove inputs:{}".format(remove_list))
+
+
+result = subprocess.call("cat /home/jeason/projects/pythonStudy/MainForFirstCommit.py",shell=True)
+print(result)
+"""
+输出：
+# encoding=utf-8
+
+if __name__ == "__main__":
+    print("hello world")
+0
+
+最后还带了一个0，表示主函数return 0这个返回值
+
+"""
+
+statusCode,output=subprocess.getstatusoutput("cat /home/jeason/projects/pythonStudy/MainForFirstCommit.py")
+print("statusCode:{}".format(statusCode))
+print(output)
+"""
+statusCode:0
+# encoding=utf-8
+
+if __name__ == "__main__":
+    print("hello world")
+"""
+
+
+result=os.system("cat /home/jeason/projects/pythonStudy/MainForFirstCommit.py")
+print(result)
+"""
+输出：
+# encoding=utf-8
+
+if __name__ == "__main__":
+    print("hello world")
+0
+
+最后还带了一个0，表示主函数return 0这个返回值
+
+"""
+
+
+# f 是一个对象
+f = os.popen("cat /home/jeason/projects/pythonStudy/MainForFirstCommit.py")
+print(f)
+data = f.readlines()
+f.close()
+print(data)
+"""
+从f对象中readlines读取程序的标准输出，形成数组
+['# encoding=utf-8\n', '\n', 'if __name__ == "__main__":\n', '    print("hello world")\n']
+"""
+
 

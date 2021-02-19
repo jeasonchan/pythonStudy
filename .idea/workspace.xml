@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bc275fa3-2d92-441d-903a-c9804e4bcce3" name="Default Changelist" comment="# 2019年6月20日23:53:28&#10;* 新建脚本package，放有用的工具脚本&#10;* 完成第一个脚本，打印输出目录下的所有文件的全路径">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/unknown_tool/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/pythonStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonStudy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/unknown_tool/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/unknown_tool/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python编码问题/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python编码问题/Main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +26,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2020.3/python_stubs/851067092/nt.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2020.3/python_stubs/-632990927/sys.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/3/sys.pyi" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1UxTME0S666quUOlRKyn7jsxI2X" />
   <component name="ProjectViewState">
@@ -42,7 +41,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="editor.reader.mode" />
   </component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
@@ -179,9 +178,26 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="# 2019年6月20日23:53:28&#10;* 新建脚本package，放有用的工具脚本&#10;* 完成第一个脚本，打印输出目录下的所有文件的全路径" />
     <option name="LAST_COMMIT_MESSAGE" value="# 2019年6月20日23:53:28&#10;* 新建脚本package，放有用的工具脚本&#10;* 完成第一个脚本，打印输出目录下的所有文件的全路径" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/python编码问题/Main.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="sys" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

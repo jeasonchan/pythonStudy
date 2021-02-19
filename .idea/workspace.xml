@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bc275fa3-2d92-441d-903a-c9804e4bcce3" name="Default Changelist" comment="# 2019年6月20日23:53:28&#10;* 新建脚本package，放有用的工具脚本&#10;* 完成第一个脚本，打印输出目录下的所有文件的全路径">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/python编码问题/GBK编码的中文文档.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unknown_tool/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonStudy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonStudy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python编码问题/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/python编码问题/Main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unknown_tool/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/unknown_tool/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,18 +27,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2020.3/python_stubs/851067092/nt.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1UxTME0S666quUOlRKyn7jsxI2X" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
   </component>
   <component name="RunManager" selected="Python.Main">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -122,6 +134,7 @@
       </list>
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -156,39 +169,19 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="# 2019年6月20日23:53:28&#10;* 新建脚本package，放有用的工具脚本&#10;* 完成第一个脚本，打印输出目录下的所有文件的全路径" />
     <option name="LAST_COMMIT_MESSAGE" value="# 2019年6月20日23:53:28&#10;* 新建脚本package，放有用的工具脚本&#10;* 完成第一个脚本，打印输出目录下的所有文件的全路径" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="663" y="357" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1576333680241">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state x="663" y="357" key="#com.intellij.fileTypes.FileTypeChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1576333680241" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1576335294654">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1576335294654" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1576335294654">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1576335294654" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1576335294654">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1576335294654" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1576335294654">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1576335294654" />
-    <state x="461" y="197" key="SettingsEditor" timestamp="1576320308723">
-      <screen x="0" y="30" width="1920" height="1050" />
-    </state>
-    <state x="461" y="197" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1576320308723" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonStudy$Main.coverage" NAME="Main Coverage Results" MODIFIED="1576335294637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python编码问题" />
-    <SUITE FILE_PATH="coverage/pythonStudy$MainForFirstCommit.coverage" NAME="MainForFirstCommit Coverage Results" MODIFIED="1561045351895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pythonStudy$NoName.coverage" NAME="NoName Coverage Results" MODIFIED="1561045790728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UsefulScripts" />
   </component>
 </project>
